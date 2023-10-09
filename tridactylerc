@@ -1,0 +1,28 @@
+
+bind d stop
+bind x tabclose
+bind X undo
+
+bind a fillcmdline tab
+bind b bmark
+
+bind c scrollline -10
+bind t scrollline 10
+
+bind h scrollline -30
+bind n scrollline 30
+
+bind l tabnext
+bind f tabprev
+
+bind u hint -b
+bind U hint
+
+bind s fillcmdline tabopen search
+bind S fillcmdline open search
+
+bind o fillcmdline tabopen
+
+bind p reloadhard
+
+bind j clipboard tabopen
